@@ -2,6 +2,7 @@ import os
 os.system("pip3 install pandas")
 os.system("pip3 install scikit-learn")
 os.system("pip3 install numpy")
+os.system("sleep 5")
 import pandas as pd
 db = pd.read_csv("SalaryData.csv")
 from sklearn.linear_model import LinearRegression
